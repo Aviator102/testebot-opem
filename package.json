@@ -1,0 +1,14 @@
+{
+  "name": "opensim-profile-photo-bot-test",
+  "version": "1.0.0",
+  "description": "Bot simples para testar UUID da foto de perfil em OpenSim via IM",
+  "main": "bot-profile-photo.js",
+  "scripts": {
+    "start": "node bot-profile-photo.js"
+  },
+  "engines": {
+    "node": ">=18"  },
+  "dependencies": {
+    "@caspertech/node-metaverse": "^0.8.6"
+  }
+}
